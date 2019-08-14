@@ -1,5 +1,5 @@
 //our root app component
-import { Component, NgModule, VERSION } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
@@ -13,9 +13,6 @@ import { BrowserModule } from '@angular/platform-browser';
 })
 export class App {
     name: string;
-    constructor() {
-        this.name = `Angular! v${VERSION.full}`;
-    }
 }
 
 @NgModule({
